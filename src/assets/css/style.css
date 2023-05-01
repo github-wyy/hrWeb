@@ -1,0 +1,150 @@
+/* 文字居中显示 */
+.text-center {
+  text-align: center
+}
+/* 文字靠左显示 */
+.text-left {
+  text-align: left
+}
+/* 文字靠右显示 */
+.text-right {
+  text-align: right;
+}
+/* 不同层之间的行间隔配置 */
+.block-line {
+  height: 20px;
+}
+/* Index.vue首页主题众筹项目列表层高 */
+.div-content {
+  height: 855px;
+}
+/* 众筹项目列表（带分页）层高度 */
+.div-content-split {
+  height: 950px;
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+/* Index.vue中的间隔图片样式 */
+.ad-space {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+/* 众筹新闻右边的文字框高度以及滚动配置 */
+.news-content {
+  height: 432px;
+  width: 375px;
+  padding: 5px;
+  overflow-x: hidden;
+  overFlow-y: auto;
+  border:1px solid #E1E1E1;
+}
+/* 众筹咨询中的标题样式 */
+.title {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.message-title {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+}
+.message-name {
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: left;
+}
+.message-value {
+  font-size: 15px;
+  text-align: left;
+}
+/* 众筹新闻中间视频播放框的层大小 */
+.news-video {
+  width:800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+  height: 432px;
+}
+/* 不同组件切换的过渡动画 */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+/* 进度条文字颜色 */
+.progress-text {
+  color: chocolate;
+}
+/* 众筹项目的边距 */
+.cf-item {
+  padding: 15px;
+}
+/* 众筹图片中显示的众筹标签样式 */
+.cf-image-tag {
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  bottom: 4px;
+}
+/* 众筹图片中显示的赞样式 */
+.cf-image-btn {
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+}
+/* 项目发布窗体配置 */
+.project-content {
+  height: 500px;
+}
+/* 项目预览标题 */
+.preview-title {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+}
+/* 项目预览内容 */
+.preview-content {
+  font-weight: 100px;
+  font-size: 16px;
+  text-align: left;
+}
+/* 首页顶部样式 */
+.index-head {
+  width: 100%;
+  height: 110px;
+  padding-top: 10px;
+  margin-top: -10px;
+  background-color: #007ab5;
+}
+.index-nav-text {
+  color: aliceblue;
+  text-align: center;
+  font-size: 12px;
+}
+.aligncenter {
+  border:1px solid #FFF;
+  -moz-box-shadow:0 0 3px #AAA;
+  -webkit-box-shadow:0 0 3px #AAA;
+  box-shadow:0 0 3px #AAA;
+  padding:3px
+}
+#bottom{width:100%;height:158px; background:#313131; font-family:"宋体";}
+.bottom_p{position:relative; width:1000px; height:100%;margin:0 auto;}
+.copy{width:470px;position:absolute;padding-top:22px;left:0px;top:0;}
+.copy a{ font-size:12px;color:#b3b5ba;padding:0 6px;}
+.copy .copy_act{color:#fff; font-size:12px;}
+.copy b{ color:#49605b; font-size:12px;}
+.copy span{ font-size:12px;color:#b3b5ba;}
+.contact{width:260px;position:absolute;right:0;top:0px;}
+.contact_p{width:142px; float:left;line-height:22px;margin-top:12px;}
+.contact_p p{ font-size:14px;color:#b3b5ba;}
+.contact_p p span{color:#b3b5ba;font-size:12px;}
+.contact_p span{ font-family:Arial;color:#939393; font-size:12px;}
+.contact_wx{width:80px; float:right; margin-top:16px;}
+.contact_wx a{padding-bottom:10px;}
+.contact_wx span{color:#939393; font-size:12px;}
